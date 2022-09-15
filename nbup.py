@@ -21,10 +21,6 @@ def install_bigdft():
     from os import system
     system("conda install " + _pkg + " ; conda update --all")
 
-def fix_environment():
-    from os import environ
-    environ["BIGDFT_ROOT"] = "/usr/local/bin"
-
 # Run them all
 if not skip():
     download()

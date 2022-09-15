@@ -3,7 +3,7 @@ _base = "https://github.com/william-dawson/test-colab/raw/main/packages/"
 _pkg = "bigdft-suite-1.9.3_rc.2-mpi_openmpi_py37h008c211_0.tar.bz2"
 
 def download():
-    system("wget " + _base + "/" + _pkg)
+    system("wget " + _base + _pkg)
 
 def install_colab():
     system("pip install -q condacolab")

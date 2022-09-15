@@ -31,5 +31,4 @@ if not skip():
     install_colab()
     setup_colab()
     install_bigdft()
-    fix_environment()
 
